@@ -14,4 +14,5 @@ ENTRYPOINT ["/entrypoint.sh"]
 
 ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/zookeeper/bin
 
+
 CMD ["zkServer.sh", "start-foreground"]
